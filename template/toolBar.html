@@ -1,0 +1,10 @@
+<md-toolbar class="md-toolbar-tools">
+  <button ng-click="toggleLeft()"  class="md-button md-raised md-primary md-icon-button">
+    <md-icon md-svg-icon="bower_components/material-design-icons/image/svg/design/menu.svg"></md-icon>
+  </button>
+  <span class="md-toolbar-tools" >Mobile Online Shopping</span>
+  <img ng-src="assets/images/add-to-card.jpg" class="add-to-card-img">
+  <span class="item-count" ng-click="showItems($event, addedItemsArr)">{{addedItemsArr.length}}</span>
+  <md-button class="md-button" style="text-align:right" ng-click="onLogOut()" >Logout</md-button>
+
+</md-toolbar>

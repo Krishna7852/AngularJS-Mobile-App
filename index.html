@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Login_page</title>
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.min.css">
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/flip-image.css">
+  </head>
+  <body ng-app="app">
+    <ui-view></ui-view>
+  </body>
+  <script src="bower_components/angular/angular.min.js"></script>
+  <script src="bower_components/angular-ui-router/release/angular-ui-router.js" charset="utf-8"></script>
+  <script src="bower_components/angular-animate/angular-animate.min.js" charset="utf-8"></script>
+  <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+  <script src="bower_components/angular-aria/angular-aria.min.js" charset="utf-8"></script>
+  <script src="bower_components/angular-material/angular-material.min.js" charset="utf-8"></script>
+  <script src="app.js" charset="utf-8"></script>
+  <script src="controller/loginController.js" charset="utf-8"></script>
+  <script src="controller/homeCtrl.js" charset="utf-8"></script>
+  <script src="controller/dashboardController.js" charset="utf-8"></script>
+  <script src="controller/todoController.js" charset="utf-8"></script>
+  <script src="service/products.js" charset="utf-8"></script>
+  <script src="directive/sidebar.js" charset="utf-8"></script>
+  <script src="directive/toolbar.js" charset="utf-8"></script>
+  <script src="filters/unique.js" charset="utf-8"></script>
+  <script src="filters/quantityFilter.js" charset="utf-8"></script>
+  <script src="filters/dashBoardFilter.js" charset="utf-8"></script>
+</html>
+<!--
+
+TODO:- for setup app follow bellow process:
+1) install git
+2)npm install -g bower
+3)node and npm should be there.
+4)bower init // go create bower.json
+5)install all packages which u required, i.e. bower install angular &#45;&#45;save
+6)if u already have packages just update it, i.e. bower update
+7)run app on local server use command: http-server -o
+-->
+
