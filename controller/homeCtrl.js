@@ -18,6 +18,7 @@ app.controller('homeCtrl', function ($scope, $state, $mdSidenav, products, $mdDi
     }
 
     $scope.toggleLeft = buildToggler('left');
+
     $scope.isSidebarOpen = false;
 
     function buildToggler(componentId) {
