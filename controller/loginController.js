@@ -1,9 +1,11 @@
-app.controller('loginCtrl', function ($scope, $state) {
+app.controller('loginCtrl', function ($scope, $state, UserService) {
     $scope.isMatchPasswordWithEmail = false;
     $scope.submit = function () {
         $state.go('home.dashboard');
-        console.log($scope.userEmail);
         console.log($scope.password);
+
+        // set User Data from Here
+        UserService.setUserData("Krishna");
     };
     $scope.comaprePassword = function (password, email) {
         if (password && email) {

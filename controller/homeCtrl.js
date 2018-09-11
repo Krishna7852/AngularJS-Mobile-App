@@ -1,4 +1,5 @@
-app.controller('homeCtrl', function ($scope, $state, $mdSidenav, products, $mdDialog) {
+app.controller('homeCtrl', function ($scope, $state, $mdSidenav, products, $mdDialog, UserService) {
+
     $scope.showItems = function (event, info) {
         $mdDialog.show({
             locals: {data: info},
@@ -40,6 +41,11 @@ app.controller('homeCtrl', function ($scope, $state, $mdSidenav, products, $mdDi
     products.getData().then(function (response) {
         $scope.allMobilesInfo = response;
         console.log('JSON response: ', response);
+
+        // Get User Data from UserService
+        $scope.user = '';
+        var user =  UserService.getUserData();
+        console.log(':::text:::', user);
     });
     $scope.manufacturerArr = [];
     $scope.storageArr = [];

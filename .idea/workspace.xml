@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5643a3ec-58f6-4404-8fd5-d211f677550d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/UserService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-animate/.bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-animate/.bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-animate/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-animate/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-animate/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-animate/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-animate/angular-animate.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-animate/angular-animate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-animate/angular-animate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-animate/angular-animate.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-animate/angular-animate.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-animate/angular-animate.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-animate/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-animate/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-animate/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-animate/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-animate/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-animate/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-aria/.bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-aria/.bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-aria/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-aria/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-aria/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-aria/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-aria/angular-aria.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-aria/angular-aria.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-aria/angular-aria.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-aria/angular-aria.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-aria/angular-aria.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-aria/angular-aria.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-aria/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-aria/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-aria/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-aria/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-aria/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-aria/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/.bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/.bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/angular-material-mocks.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/angular-material-mocks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/angular-material.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/angular-material.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/angular-material.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/angular-material.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/angular-material.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/angular-material.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/angular-material.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/angular-material.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/angular-material.scss" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/angular-material.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/layouts/angular-material.layout-attributes.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/layouts/angular-material.layout-attributes.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/layouts/angular-material.layout-attributes.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/layouts/angular-material.layout-attributes.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/layouts/angular-material.layout-attributes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/layouts/angular-material.layout-attributes.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/layouts/angular-material.layouts.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/layouts/angular-material.layouts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/layouts/angular-material.layouts.ie_fixes.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/layouts/angular-material.layouts.ie_fixes.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/layouts/angular-material.layouts.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/layouts/angular-material.layouts.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/layouts/angular-material.layouts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/layouts/angular-material.layouts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/autocomplete/autocomplete-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/autocomplete/autocomplete-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/autocomplete/autocomplete-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/autocomplete/autocomplete-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/autocomplete/autocomplete.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/autocomplete/autocomplete.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/autocomplete/autocomplete.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/autocomplete/autocomplete.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/autocomplete/autocomplete.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/autocomplete/autocomplete.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/autocomplete/autocomplete.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/autocomplete/autocomplete.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/backdrop/backdrop-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/backdrop/backdrop-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/backdrop/backdrop-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/backdrop/backdrop-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/backdrop/backdrop.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/backdrop/backdrop.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/backdrop/backdrop.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/backdrop/backdrop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/backdrop/backdrop.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/backdrop/backdrop.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/backdrop/backdrop.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/backdrop/backdrop.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/bottomSheet/bottomSheet-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/bottomSheet/bottomSheet-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/bottomSheet/bottomSheet-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/bottomSheet/bottomSheet-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/bottomSheet/bottomSheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/bottomSheet/bottomSheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/bottomSheet/bottomSheet.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/bottomSheet/bottomSheet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/bottomSheet/bottomSheet.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/bottomSheet/bottomSheet.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/bottomSheet/bottomSheet.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/bottomSheet/bottomSheet.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/button/button-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/button/button-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/button/button-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/button/button-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/button/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/button/button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/button/button.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/button/button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/button/button.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/button/button.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/button/button.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/button/button.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/card/card-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/card/card-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/card/card-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/card/card-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/card/card.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/card/card.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/card/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/card/card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/card/card.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/card/card.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/card/card.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/card/card.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/checkbox/checkbox-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/checkbox/checkbox-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/checkbox/checkbox-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/checkbox/checkbox-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/checkbox/checkbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/checkbox/checkbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/checkbox/checkbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/checkbox/checkbox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/checkbox/checkbox.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/checkbox/checkbox.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/checkbox/checkbox.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/checkbox/checkbox.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/chips/chips-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/chips/chips-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/chips/chips-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/chips/chips-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/chips/chips.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/chips/chips.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/chips/chips.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/chips/chips.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/chips/chips.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/chips/chips.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/chips/chips.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/chips/chips.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/colors/colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/colors/colors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/colors/colors.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/colors/colors.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/content/content-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/content/content-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/content/content-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/content/content-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/content/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/content/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/content/content.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/content/content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/content/content.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/content/content.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/content/content.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/content/content.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/core/core-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/core/core-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/core/core-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/core/core-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/core/core.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/core/core.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/core/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/core/core.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/core/core.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/core/core.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/core/core.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/core/core.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/core/default-theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/core/default-theme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/datepicker/datepicker-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/datepicker/datepicker-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/datepicker/datepicker-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/datepicker/datepicker-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/datepicker/datepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/datepicker/datepicker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/datepicker/datepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/datepicker/datepicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/datepicker/datepicker.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/datepicker/datepicker.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/datepicker/datepicker.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/datepicker/datepicker.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/dialog/dialog-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/dialog/dialog-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/dialog/dialog-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/dialog/dialog-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/dialog/dialog.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/dialog/dialog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/dialog/dialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/dialog/dialog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/dialog/dialog.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/dialog/dialog.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/dialog/dialog.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/dialog/dialog.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/divider/divider-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/divider/divider-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/divider/divider-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/divider/divider-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/divider/divider.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/divider/divider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/divider/divider.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/divider/divider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/divider/divider.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/divider/divider.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/divider/divider.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/divider/divider.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabActions/fabActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabActions/fabActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabActions/fabActions.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabActions/fabActions.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabSpeedDial/fabSpeedDial.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabSpeedDial/fabSpeedDial.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabSpeedDial/fabSpeedDial.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabSpeedDial/fabSpeedDial.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabSpeedDial/fabSpeedDial.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabSpeedDial/fabSpeedDial.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabSpeedDial/fabSpeedDial.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabSpeedDial/fabSpeedDial.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabToolbar/fabToolbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabToolbar/fabToolbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabToolbar/fabToolbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabToolbar/fabToolbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabToolbar/fabToolbar.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabToolbar/fabToolbar.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabToolbar/fabToolbar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabToolbar/fabToolbar.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabTrigger/fabTrigger.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabTrigger/fabTrigger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabTrigger/fabTrigger.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabTrigger/fabTrigger.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/gridList/gridList-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/gridList/gridList-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/gridList/gridList.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/gridList/gridList.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/gridList/gridList.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/gridList/gridList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/gridList/gridList.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/gridList/gridList.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/gridList/gridList.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/gridList/gridList.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/icon/icon-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/icon/icon-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/icon/icon-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/icon/icon-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/icon/icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/icon/icon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/icon/icon.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/icon/icon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/icon/icon.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/icon/icon.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/icon/icon.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/icon/icon.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/input/input-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/input/input-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/input/input-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/input/input-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/input/input.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/input/input.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/input/input.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/input/input.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/input/input.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/input/input.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/input/input.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/input/input.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/list/list-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/list/list-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/list/list-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/list/list-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/list/list.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/list/list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/list/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/list/list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/list/list.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/list/list.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/list/list.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/list/list.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menu/menu-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menu/menu-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menu/menu-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menu/menu-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menu/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menu/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menu/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menu/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menu/menu.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menu/menu.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menu/menu.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menu/menu.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menuBar/menuBar-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menuBar/menuBar-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menuBar/menuBar-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menuBar/menuBar-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menuBar/menuBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menuBar/menuBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menuBar/menuBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menuBar/menuBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menuBar/menuBar.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menuBar/menuBar.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menuBar/menuBar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menuBar/menuBar.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/navBar/navBar-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/navBar/navBar-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/navBar/navBar-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/navBar/navBar-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/navBar/navBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/navBar/navBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/navBar/navBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/navBar/navBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/navBar/navBar.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/navBar/navBar.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/navBar/navBar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/navBar/navBar.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/panel/panel-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/panel/panel-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/panel/panel-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/panel/panel-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/panel/panel.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/panel/panel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/panel/panel.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/panel/panel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/panel/panel.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/panel/panel.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/panel/panel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/panel/panel.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressCircular/progressCircular-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressCircular/progressCircular-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressCircular/progressCircular-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressCircular/progressCircular-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressCircular/progressCircular.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressCircular/progressCircular.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressCircular/progressCircular.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressCircular/progressCircular.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressCircular/progressCircular.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressCircular/progressCircular.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressCircular/progressCircular.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressCircular/progressCircular.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressLinear/progressLinear-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressLinear/progressLinear-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressLinear/progressLinear-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressLinear/progressLinear-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressLinear/progressLinear.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressLinear/progressLinear.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressLinear/progressLinear.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressLinear/progressLinear.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressLinear/progressLinear.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressLinear/progressLinear.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressLinear/progressLinear.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressLinear/progressLinear.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/radioButton/radioButton-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/radioButton/radioButton-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/radioButton/radioButton-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/radioButton/radioButton-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/radioButton/radioButton.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/radioButton/radioButton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/radioButton/radioButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/radioButton/radioButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/radioButton/radioButton.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/radioButton/radioButton.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/radioButton/radioButton.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/radioButton/radioButton.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/select/select-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/select/select-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/select/select-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/select/select-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/select/select.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/select/select.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/select/select.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/select/select.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/select/select.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/select/select.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/select/select.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/select/select.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/showHide/showHide.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/showHide/showHide.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/showHide/showHide.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/showHide/showHide.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sidenav/sidenav-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sidenav/sidenav-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sidenav/sidenav-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sidenav/sidenav-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sidenav/sidenav.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sidenav/sidenav.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sidenav/sidenav.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sidenav/sidenav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sidenav/sidenav.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sidenav/sidenav.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sidenav/sidenav.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sidenav/sidenav.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/slider/slider-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/slider/slider-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/slider/slider-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/slider/slider-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/slider/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/slider/slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/slider/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/slider/slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/slider/slider.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/slider/slider.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/slider/slider.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/slider/slider.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sticky/sticky.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sticky/sticky.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sticky/sticky.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sticky/sticky.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sticky/sticky.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sticky/sticky.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sticky/sticky.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sticky/sticky.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/subheader/subheader-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/subheader/subheader-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/subheader/subheader-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/subheader/subheader-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/subheader/subheader.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/subheader/subheader.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/subheader/subheader.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/subheader/subheader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/subheader/subheader.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/subheader/subheader.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/subheader/subheader.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/subheader/subheader.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/swipe/swipe.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/swipe/swipe.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/swipe/swipe.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/swipe/swipe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/swipe/swipe.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/swipe/swipe.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/swipe/swipe.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/swipe/swipe.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/switch/switch-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/switch/switch-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/switch/switch-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/switch/switch-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/switch/switch.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/switch/switch.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/switch/switch.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/switch/switch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/switch/switch.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/switch/switch.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/switch/switch.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/switch/switch.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tabs/tabs-arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tabs/tabs-arrow.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tabs/tabs-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tabs/tabs-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tabs/tabs-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tabs/tabs-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tabs/tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tabs/tabs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tabs/tabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tabs/tabs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tabs/tabs.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tabs/tabs.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tabs/tabs.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tabs/tabs.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/textField/textField-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/textField/textField-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/textField/textField.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/textField/textField.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/textField/textField.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/textField/textField.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toast/toast-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toast/toast-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toast/toast-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toast/toast-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toast/toast.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toast/toast.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toast/toast.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toast/toast.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toast/toast.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toast/toast.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toast/toast.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toast/toast.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toolbar/toolbar-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toolbar/toolbar-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toolbar/toolbar-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toolbar/toolbar-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toolbar/toolbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toolbar/toolbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toolbar/toolbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toolbar/toolbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toolbar/toolbar.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toolbar/toolbar.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toolbar/toolbar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toolbar/toolbar.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tooltip/tooltip-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tooltip/tooltip-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tooltip/tooltip-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tooltip/tooltip-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tooltip/tooltip.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tooltip/tooltip.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tooltip/tooltip.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tooltip/tooltip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tooltip/tooltip.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tooltip/tooltip.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tooltip/tooltip.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tooltip/tooltip.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/truncate/truncate.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/truncate/truncate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/truncate/truncate.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/truncate/truncate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/truncate/truncate.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/truncate/truncate.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/truncate/truncate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/truncate/truncate.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/virtualRepeat/virtualRepeat.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/virtualRepeat/virtualRepeat.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/virtualRepeat/virtualRepeat.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/virtualRepeat/virtualRepeat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/virtualRepeat/virtualRepeat.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/virtualRepeat/virtualRepeat.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/virtualRepeat/virtualRepeat.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/virtualRepeat/virtualRepeat.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/whiteframe/whiteframe.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/whiteframe/whiteframe.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/whiteframe/whiteframe.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/whiteframe/whiteframe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/whiteframe/whiteframe.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/whiteframe/whiteframe.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/whiteframe/whiteframe.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/whiteframe/whiteframe.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/autocomplete/autocomplete-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/autocomplete/autocomplete-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/autocomplete/autocomplete-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/autocomplete/autocomplete-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/autocomplete/autocomplete.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/autocomplete/autocomplete.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/autocomplete/autocomplete.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/autocomplete/autocomplete.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/autocomplete/autocomplete.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/autocomplete/autocomplete.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/autocomplete/autocomplete.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/autocomplete/autocomplete.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/autocomplete/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/autocomplete/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/backdrop/backdrop-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/backdrop/backdrop-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/backdrop/backdrop-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/backdrop/backdrop-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/backdrop/backdrop.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/backdrop/backdrop.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/backdrop/backdrop.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/backdrop/backdrop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/backdrop/backdrop.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/backdrop/backdrop.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/backdrop/backdrop.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/backdrop/backdrop.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/backdrop/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/backdrop/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/bottomSheet/bottomSheet-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/bottomSheet/bottomSheet-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/bottomSheet/bottomSheet-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/bottomSheet/bottomSheet-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/bottomSheet/bottomSheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/bottomSheet/bottomSheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/bottomSheet/bottomSheet.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/bottomSheet/bottomSheet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/bottomSheet/bottomSheet.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/bottomSheet/bottomSheet.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/bottomSheet/bottomSheet.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/bottomSheet/bottomSheet.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/bottomSheet/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/bottomSheet/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/button/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/button/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/button/button-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/button/button-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/button/button-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/button/button-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/button/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/button/button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/button/button.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/button/button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/button/button.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/button/button.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/button/button.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/button/button.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/card/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/card/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/card/card-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/card/card-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/card/card-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/card/card-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/card/card.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/card/card.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/card/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/card/card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/card/card.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/card/card.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/card/card.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/card/card.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/checkbox/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/checkbox/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/checkbox/checkbox-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/checkbox/checkbox-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/checkbox/checkbox-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/checkbox/checkbox-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/checkbox/checkbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/checkbox/checkbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/checkbox/checkbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/checkbox/checkbox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/checkbox/checkbox.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/checkbox/checkbox.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/checkbox/checkbox.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/checkbox/checkbox.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/chips/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/chips/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/chips/chips-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/chips/chips-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/chips/chips-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/chips/chips-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/chips/chips.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/chips/chips.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/chips/chips.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/chips/chips.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/chips/chips.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/chips/chips.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/chips/chips.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/chips/chips.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/colors/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/colors/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/colors/colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/colors/colors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/colors/colors.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/colors/colors.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/content/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/content/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/content/content-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/content/content-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/content/content-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/content/content-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/content/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/content/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/content/content.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/content/content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/content/content.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/content/content.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/content/content.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/content/content.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/core/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/core/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/core/core-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/core/core-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/core/core-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/core/core-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/core/core.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/core/core.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/core/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/core/core.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/core/core.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/core/core.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/core/core.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/core/core.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/core/default-theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/core/default-theme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/datepicker/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/datepicker/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/datepicker/datepicker-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/datepicker/datepicker-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/datepicker/datepicker-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/datepicker/datepicker-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/datepicker/datepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/datepicker/datepicker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/datepicker/datepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/datepicker/datepicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/datepicker/datepicker.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/datepicker/datepicker.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/datepicker/datepicker.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/datepicker/datepicker.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/dialog/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/dialog/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/dialog/dialog-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/dialog/dialog-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/dialog/dialog-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/dialog/dialog-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/dialog/dialog.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/dialog/dialog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/dialog/dialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/dialog/dialog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/dialog/dialog.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/dialog/dialog.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/dialog/dialog.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/dialog/dialog.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/divider/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/divider/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/divider/divider-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/divider/divider-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/divider/divider-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/divider/divider-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/divider/divider.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/divider/divider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/divider/divider.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/divider/divider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/divider/divider.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/divider/divider.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/divider/divider.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/divider/divider.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabActions/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabActions/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabActions/fabActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabActions/fabActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabActions/fabActions.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabActions/fabActions.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabSpeedDial/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabSpeedDial/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabSpeedDial/fabSpeedDial.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabSpeedDial/fabSpeedDial.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabSpeedDial/fabSpeedDial.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabSpeedDial/fabSpeedDial.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabSpeedDial/fabSpeedDial.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabSpeedDial/fabSpeedDial.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabSpeedDial/fabSpeedDial.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabSpeedDial/fabSpeedDial.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabToolbar/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabToolbar/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabToolbar/fabToolbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabToolbar/fabToolbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabToolbar/fabToolbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabToolbar/fabToolbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabToolbar/fabToolbar.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabToolbar/fabToolbar.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabToolbar/fabToolbar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabToolbar/fabToolbar.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabTrigger/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabTrigger/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabTrigger/fabTrigger.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabTrigger/fabTrigger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabTrigger/fabTrigger.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabTrigger/fabTrigger.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/gridList/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/gridList/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/gridList/gridList.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/gridList/gridList.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/gridList/gridList.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/gridList/gridList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/gridList/gridList.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/gridList/gridList.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/gridList/gridList.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/gridList/gridList.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/icon/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/icon/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/icon/icon-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/icon/icon-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/icon/icon-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/icon/icon-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/icon/icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/icon/icon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/icon/icon.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/icon/icon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/icon/icon.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/icon/icon.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/icon/icon.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/icon/icon.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/input/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/input/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/input/input-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/input/input-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/input/input-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/input/input-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/input/input.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/input/input.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/input/input.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/input/input.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/input/input.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/input/input.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/input/input.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/input/input.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/list/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/list/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/list/list-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/list/list-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/list/list-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/list/list-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/list/list.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/list/list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/list/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/list/list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/list/list.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/list/list.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/list/list.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/list/list.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menu/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menu/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menu/menu-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menu/menu-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menu/menu-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menu/menu-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menu/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menu/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menu/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menu/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menu/menu.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menu/menu.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menu/menu.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menu/menu.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menuBar/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menuBar/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menuBar/menuBar-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menuBar/menuBar-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menuBar/menuBar-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menuBar/menuBar-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menuBar/menuBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menuBar/menuBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menuBar/menuBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menuBar/menuBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menuBar/menuBar.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menuBar/menuBar.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menuBar/menuBar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menuBar/menuBar.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/navBar/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/navBar/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/navBar/navBar-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/navBar/navBar-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/navBar/navBar-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/navBar/navBar-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/navBar/navBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/navBar/navBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/navBar/navBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/navBar/navBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/navBar/navBar.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/navBar/navBar.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/navBar/navBar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/navBar/navBar.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/panel/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/panel/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/panel/panel-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/panel/panel-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/panel/panel-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/panel/panel-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/panel/panel.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/panel/panel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/panel/panel.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/panel/panel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/panel/panel.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/panel/panel.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/panel/panel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/panel/panel.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressCircular/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressCircular/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressCircular/progressCircular-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressCircular/progressCircular-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressCircular/progressCircular-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressCircular/progressCircular-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressCircular/progressCircular.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressCircular/progressCircular.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressCircular/progressCircular.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressCircular/progressCircular.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressCircular/progressCircular.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressCircular/progressCircular.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressCircular/progressCircular.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressCircular/progressCircular.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressLinear/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressLinear/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressLinear/progressLinear-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressLinear/progressLinear-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressLinear/progressLinear-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressLinear/progressLinear-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressLinear/progressLinear.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressLinear/progressLinear.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressLinear/progressLinear.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressLinear/progressLinear.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressLinear/progressLinear.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressLinear/progressLinear.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressLinear/progressLinear.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressLinear/progressLinear.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/radioButton/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/radioButton/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/radioButton/radioButton-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/radioButton/radioButton-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/radioButton/radioButton-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/radioButton/radioButton-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/radioButton/radioButton.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/radioButton/radioButton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/radioButton/radioButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/radioButton/radioButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/radioButton/radioButton.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/radioButton/radioButton.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/radioButton/radioButton.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/radioButton/radioButton.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/select/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/select/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/select/select-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/select/select-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/select/select-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/select/select-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/select/select.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/select/select.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/select/select.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/select/select.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/select/select.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/select/select.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/select/select.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/select/select.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/showHide/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/showHide/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/showHide/showHide.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/showHide/showHide.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/showHide/showHide.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/showHide/showHide.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sidenav/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sidenav/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sidenav/sidenav-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sidenav/sidenav-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sidenav/sidenav-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sidenav/sidenav-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sidenav/sidenav.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sidenav/sidenav.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sidenav/sidenav.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sidenav/sidenav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sidenav/sidenav.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sidenav/sidenav.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sidenav/sidenav.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sidenav/sidenav.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/slider/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/slider/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/slider/slider-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/slider/slider-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/slider/slider-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/slider/slider-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/slider/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/slider/slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/slider/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/slider/slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/slider/slider.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/slider/slider.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/slider/slider.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/slider/slider.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sticky/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sticky/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sticky/sticky.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sticky/sticky.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sticky/sticky.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sticky/sticky.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sticky/sticky.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sticky/sticky.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sticky/sticky.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sticky/sticky.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/subheader/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/subheader/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/subheader/subheader-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/subheader/subheader-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/subheader/subheader-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/subheader/subheader-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/subheader/subheader.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/subheader/subheader.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/subheader/subheader.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/subheader/subheader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/subheader/subheader.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/subheader/subheader.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/subheader/subheader.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/subheader/subheader.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/swipe/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/swipe/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/swipe/swipe.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/swipe/swipe.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/swipe/swipe.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/swipe/swipe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/swipe/swipe.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/swipe/swipe.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/swipe/swipe.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/swipe/swipe.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/switch/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/switch/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/switch/switch-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/switch/switch-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/switch/switch-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/switch/switch-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/switch/switch.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/switch/switch.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/switch/switch.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/switch/switch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/switch/switch.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/switch/switch.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/switch/switch.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/switch/switch.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tabs/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tabs/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tabs/tabs-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tabs/tabs-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tabs/tabs-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tabs/tabs-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tabs/tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tabs/tabs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tabs/tabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tabs/tabs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tabs/tabs.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tabs/tabs.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tabs/tabs.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tabs/tabs.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/textField/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/textField/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/textField/textField-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/textField/textField-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/textField/textField-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/textField/textField-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/textField/textField.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/textField/textField.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/textField/textField.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/textField/textField.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/textField/textField.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/textField/textField.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/textField/textField.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/textField/textField.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toast/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toast/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toast/toast-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toast/toast-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toast/toast-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toast/toast-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toast/toast.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toast/toast.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toast/toast.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toast/toast.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toast/toast.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toast/toast.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toast/toast.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toast/toast.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toolbar/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toolbar/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toolbar/toolbar-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toolbar/toolbar-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toolbar/toolbar-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toolbar/toolbar-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toolbar/toolbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toolbar/toolbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toolbar/toolbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toolbar/toolbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toolbar/toolbar.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toolbar/toolbar.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toolbar/toolbar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toolbar/toolbar.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tooltip/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tooltip/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tooltip/tooltip-default-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tooltip/tooltip-default-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tooltip/tooltip-default-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tooltip/tooltip-default-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tooltip/tooltip.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tooltip/tooltip.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tooltip/tooltip.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tooltip/tooltip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tooltip/tooltip.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tooltip/tooltip.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tooltip/tooltip.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tooltip/tooltip.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/truncate/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/truncate/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/truncate/truncate.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/truncate/truncate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/truncate/truncate.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/truncate/truncate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/truncate/truncate.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/truncate/truncate.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/truncate/truncate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/truncate/truncate.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/virtualRepeat/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/virtualRepeat/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/virtualRepeat/virtualRepeat.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/virtualRepeat/virtualRepeat.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/virtualRepeat/virtualRepeat.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/virtualRepeat/virtualRepeat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/virtualRepeat/virtualRepeat.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/virtualRepeat/virtualRepeat.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/virtualRepeat/virtualRepeat.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/virtualRepeat/virtualRepeat.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/whiteframe/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/whiteframe/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/whiteframe/whiteframe.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/whiteframe/whiteframe.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/whiteframe/whiteframe.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/whiteframe/whiteframe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/whiteframe/whiteframe.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/whiteframe/whiteframe.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/whiteframe/whiteframe.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/whiteframe/whiteframe.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/layouts/angular-material.layout-attributes.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/layouts/angular-material.layout-attributes.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/layouts/angular-material.layout-attributes.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/layouts/angular-material.layout-attributes.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/layouts/angular-material.layouts.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/layouts/angular-material.layouts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/layouts/angular-material.layouts.ie_fixes.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/layouts/angular-material.layouts.ie_fixes.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/layouts/angular-material.layouts.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/layouts/angular-material.layouts.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/scss/angular-material.layout-attributes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/scss/angular-material.layout-attributes.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/scss/angular-material.layouts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/scss/angular-material.layouts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/scss/angular-material.scss" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/scss/angular-material.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-material/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-material/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-messages/.bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-messages/.bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-messages/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-messages/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-messages/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-messages/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-messages/angular-messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-messages/angular-messages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-messages/angular-messages.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-messages/angular-messages.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-messages/angular-messages.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-messages/angular-messages.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-messages/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-messages/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-messages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-messages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-messages/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-messages/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/.bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/.bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/DOCS.md" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/DOCS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/ISSUE_TEMPLATE.md" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/artifacts.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/artifacts.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/downstream_projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/downstream_projects.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/karma.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/karma.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/release/angular-ui-router.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/release/angular-ui-router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/release/angular-ui-router.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/release/angular-ui-router.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/release/angular-ui-router.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/release/angular-ui-router.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/release/angular-ui-router.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/release/angular-ui-router.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/release/resolveService.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/release/resolveService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/release/resolveService.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/release/resolveService.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/release/resolveService.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/release/resolveService.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/release/resolveService.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/release/resolveService.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/release/stateEvents.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/release/stateEvents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/release/stateEvents.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/release/stateEvents.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/release/stateEvents.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/release/stateEvents.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/release/stateEvents.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/release/stateEvents.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/release/ui-router-angularjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/release/ui-router-angularjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/release/ui-router-angularjs.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/release/ui-router-angularjs.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/release/ui-router-angularjs.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/release/ui-router-angularjs.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/release/ui-router-angularjs.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/release/ui-router-angularjs.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/rollup.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/rollup.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/typedoc.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/typedoc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular/.bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular/.bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular/angular-csp.css" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular/angular-csp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular/angular.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular/angular.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular/angular.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular/angular.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular/angular.min.js.gzip" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular/angular.min.js.gzip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular/angular.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular/angular.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/angular/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/angular/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/homeCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/homeCtrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/loginController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/loginController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bower.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loginController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/loginController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homeCtrl.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/controller/homeCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboardController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/dashboardController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="products.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/products.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/UserService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>products</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/controller/dashboardController.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/service/UserService.js" />
+        <option value="$PROJECT_DIR$/controller/loginController.js" />
+        <option value="$PROJECT_DIR$/controller/homeCtrl.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AngularJS-Mobile-App" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AngularJS-Mobile-App" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AngularJS-Mobile-App" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AngularJS-Mobile-App" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AngularJS-Mobile-App" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AngularJS-Mobile-App" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.selected.package.prettier" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5643a3ec-58f6-4404-8fd5-d211f677550d" name="Default" comment="" />
+      <created>1536658487448</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536658487448</updated>
+      <workItem from="1536658504171" duration="2514000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2514000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32943678" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/dashboardController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/products.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/UserService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/loginController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/homeCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
